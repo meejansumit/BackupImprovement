@@ -2311,16 +2311,16 @@
                     
                     <!-- Bottom Row: Images -->
                     <div class="overview-images-grid reveal delay-3">
-                        <div class="overview-card" onclick="openZoomModal('Backup Process/assets/server_rack.png', 'Physical Secondary Backup Server Rack')">
+                        <div class="overview-card" onclick="openZoomModal('assets/server_rack.png', 'Physical Secondary Backup Server Rack')">
                             <div class="overview-card-title">Physical Server Rack (Secondary Backup)</div>
                             <div class="overview-card-img-wrapper">
-                                <img src="Backup Process/assets/server_rack.png" alt="Secondary Backup Server Hardware">
+                                <img src="assets/server_rack.png" alt="Secondary Backup Server Hardware">
                             </div>
                         </div>
-                        <div class="overview-card" onclick="openZoomModal('Backup Process/assets/truenas_dashboard.png', 'TrueNAS SCALE System Dashboard')">
+                        <div class="overview-card" onclick="openZoomModal('assets/truenas_dashboard.png', 'TrueNAS SCALE System Dashboard')">
                             <div class="overview-card-title">TrueNAS SCALE Admin Dashboard</div>
                             <div class="overview-card-img-wrapper">
-                                <img src="Backup Process/assets/truenas_dashboard.png" alt="TrueNAS SCALE dashboard screen">
+                                <img src="assets/truenas_dashboard.png" alt="TrueNAS SCALE dashboard screen">
                             </div>
                         </div>
                     </div>
@@ -2609,8 +2609,8 @@
                             <!-- Primary Storage Node (Source) -->
                             <div class="server-node-wrapper">
                                 <div class="node-label">Source Server (Primary)</div>
-                                <div class="server-chassis source" onclick="openZoomModal('Backup Process/assets/Primary.png', 'Primary Active Production ZFS Node')">
-                                    <img src="Backup Process/assets/Primary.png" alt="Primary Server Chassis">
+                                <div class="server-chassis source" onclick="openZoomModal('assets/Primary.png', 'Primary Active Production ZFS Node')">
+                                    <img src="assets/Primary.png" alt="Primary Server Chassis">
                                 </div>
                             </div>
                             
@@ -2651,8 +2651,8 @@
                             
                             <!-- Secondary Storage Target Node (Backup Target - Initiator of Pull) -->
                             <div class="server-node-wrapper">
-                                <div class="server-chassis target" onclick="openZoomModal('Backup Process/assets/Secondary.png', 'Secondary TrueNAS SCALE Backup Node')">
-                                    <img src="Backup Process/assets/Secondary.png" alt="Secondary Server Chassis">
+                                <div class="server-chassis target" onclick="openZoomModal('assets/Secondary.png', 'Secondary TrueNAS SCALE Backup Node')">
+                                    <img src="assets/Secondary.png" alt="Secondary Server Chassis">
                                 </div>
                                 <div class="node-label highlight">Backup Target (Secondary - Pull Initiator)</div>
                             </div>
@@ -2704,13 +2704,13 @@
                     <div class="graphs-container reveal-scale delay-1">
                         
                         <!-- Combined Traffic Graph -->
-                        <div class="graph-card combined-graph-card" onclick="openZoomModal('Backup Process/assets/graph_enp65s0f0 andgraph_enp65s0f1.png', 'Interface Traffic Graphs: enp65s0f0 & enp65s0f1')">
+                        <div class="graph-card combined-graph-card" onclick="openZoomModal('assets/graph_enp65s0f0 andgraph_enp65s0f1.png', 'Interface Traffic Graphs: enp65s0f0 & enp65s0f1')">
                             <div class="graph-header-row">
                                 <span class="graph-title">Interface Traffic: <strong>enp65s0f0 &amp; enp65s0f1</strong></span>
                                 <span class="graph-overlay-badge green">LACP Bond: Active Data &amp; Control Traffic</span>
                             </div>
                             <div class="graph-img-wrapper combined-graph-wrapper">
-                                <img src="Backup Process/assets/graph_enp65s0f0 andgraph_enp65s0f1.png" alt="Traffic graph enp65s0f0 and enp65s0f1">
+                                <img src="assets/graph_enp65s0f0 andgraph_enp65s0f1.png" alt="Traffic graph enp65s0f0 and enp65s0f1">
                             </div>
                             <div class="graph-zoom-hint">🔍</div>
                         </div>
@@ -2742,25 +2742,25 @@
                     <div class="graphs-container reveal-scale delay-1">
                         
                         <!-- Test Restore Card -->
-                        <div class="graph-card" onclick="openZoomModal('Backup Process/assets/Test-Restore.png', 'Test Restore from Secondary Backup')">
+                        <div class="graph-card" onclick="openZoomModal('assets/Test-Restore.png', 'Test Restore from Secondary Backup')">
                             <div class="graph-header-row">
                                 <span class="graph-title">Test Restore: <strong>Secondary Backup</strong></span>
                                 <span class="graph-overlay-badge green">Verified</span>
                             </div>
                             <div class="graph-img-wrapper">
-                                <img src="Backup Process/assets/Test-Restore.png" alt="Test Restore screenshot">
+                                <img src="assets/Test-Restore.png" alt="Test Restore screenshot">
                             </div>
                             <div class="graph-zoom-hint">🔍</div>
                         </div>
 
                         <!-- Test Share SMB Card -->
-                        <div class="graph-card" onclick="openZoomModal('Backup Process/assets/Test-Restoed-SMB.png', 'Veeam SMB Share Import Test')">
+                        <div class="graph-card" onclick="openZoomModal('assets/Test-Restoed-SMB.png', 'Veeam SMB Share Import Test')">
                             <div class="graph-header-row">
                                 <span class="graph-title">SMB Sharing: <strong>Veeam Import</strong></span>
                                 <span class="graph-overlay-badge green">Success</span>
                             </div>
                             <div class="graph-img-wrapper">
-                                <img src="Backup Process/assets/Test-Restoed-SMB.png" alt="Veeam SMB Share Import Test screenshot">
+                                <img src="assets/Test-Restoed-SMB.png" alt="Veeam SMB Share Import Test screenshot">
                             </div>
                             <div class="graph-zoom-hint">🔍</div>
                         </div>
@@ -2848,8 +2848,8 @@
 
                 <div class="topo-container">
                     <!-- Static View (PNG) - Centered using flex -->
-                    <div class="diagram-frame" id="static-view" style="display: flex; position: absolute; inset: 0; width: 100%; height: 100%; justify-content: center; align-items: center;" onclick="openZoomModal('Backup Process/assets/Diagram/Backup Process.png', 'System Architecture Diagram')">
-                        <img class="diagram-img" src="Backup Process/assets/Diagram/Backup Process.png" alt="System Architecture Diagram" style="max-width: 100%; max-height: 100%; object-fit: contain;">
+                    <div class="diagram-frame" id="static-view" style="display: flex; position: absolute; inset: 0; width: 100%; height: 100%; justify-content: center; align-items: center;" onclick="openZoomModal('assets/Diagram/Backup Process.png', 'System Architecture Diagram')">
+                        <img class="diagram-img" src="assets/Diagram/Backup Process.png" alt="System Architecture Diagram" style="max-width: 100%; max-height: 100%; object-fit: contain;">
                     </div>
 
                     <!-- Interactive View (HTML/CSS/SVG) -->
